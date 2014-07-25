@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/txtViewno1"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewNo1" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/txtno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtno1" >
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/txtviewno1"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewNo2" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/txtno2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtno2" />
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add1" />
+    <Button
+        android:id="@+id/sub1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sub1" />
+    <Button
+        android:id="@+id/mul1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mul1" />
+    <Button
+        android:id="@+id/div1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/div1" />
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:text="@string/resultview" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/restex" />
+</LinearLayout>

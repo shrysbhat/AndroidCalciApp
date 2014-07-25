@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Calculator App</string>
+    <string name="txtViewNo1">Enter First Number</string>
+    <string name="txtViewNo2">Enter Second Number</string>
+    <string name="txtno2"/>
+    <string name="txtno1"/>
+    <string name="resultview">Result - </string>
+    <string name="restex"/>
+    <string name="add1">ADD</string>
+    <string name="sub1">SUB</string>
+    <string name="mul1">MUL</string>
+    <string name="div1">DIV</string>
+
+</resources>
